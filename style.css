@@ -1,0 +1,60 @@
+body{
+    display: flex;
+    justify-content: center;
+    background-color: rgb(157, 132, 163);
+}
+
+h1{
+    display: flex;
+    justify-content: center;
+    font-weight: 300;
+    font-size: 100px;
+    font-family: 'Times New Roman', Times, serif;
+}
+
+/*to call id use #value*/
+#numbers{
+    display: flex;
+    justify-content: center;
+    font-weight: 200;
+    font-size: 40px;
+    font-family: fantasy;
+    float: center;
+
+}
+
+.btn-generate{
+    display: flex;
+    justify-content: center;
+    font-weight: 300;
+    background-color: aqua;
+    border-radius: 12px;
+    margin-top: 40px;
+    padding: 10px 15px;
+    position: absolute;
+    top: 30%;
+    left: 50%;
+}
+
+
+#total{
+    display: flex;
+    justify-content: center;
+    font-weight: 300;
+    font-size: 68px;
+    position: absolute;
+    top: 40%;
+    left: 35%;
+}
+
+.btn-calculate{
+    display: flex;
+    justify-content: center;
+    font-weight: 300;
+    background-color: #4e73b8;
+    border-radius: 8px;
+    padding: 8px 13px;
+    position: absolute;
+    top: 42%;
+    left: 50%;
+}
